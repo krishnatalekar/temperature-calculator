@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Temperature Calculator</h1>
+    </div>
+    <div class="main-container">
+        <form>
+        <div class="cel-fah">
+            <div class="main-heading">
+                <h2>Convert Celsius to Fahrenheit</h2>
+            </div>
+            <div class="main-section">
+                <input type="number" id="celsius" name="celsius" placeholder="" class="input">
+                <label for="celsius">°C</label>
+            </div>
+            <div class="btn">
+                <button class="clear">Clear</button>
+                <button class="calculate">Calculate</button>
+            </div>
+            <div class="answer">
+                <p>Answer: <span class="result"></span></p>
+            </div>
+        </div>
+        </form>
+        <form>
+        <div class="fah-cel">
+            <div class="main-heading">
+                <h2>Convert Celsius to Fahrenheit</h2>
+            </div>
+            <div class="main-section">
+                <input type="number" id="fahrenheit" name="fahrenheit" placeholder="" class="input">
+                <label for="fahrenheit">°F</label>
+            </div>
+            <div class="btn">
+                <button class="clear">Clear</button>
+                <button class="calculate1">Calculate</button>
+            </div>
+            <div class="answer">
+                <p>Answer: <span class="result1"></span></p>
+            </div>
+        </div>
+        </form>
+    </div>
+
+    <!-- Javascript -->
+    <script src="script.js"></script>
+</body>
+</html>

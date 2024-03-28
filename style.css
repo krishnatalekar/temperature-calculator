@@ -1,0 +1,61 @@
+html {
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 5rem;
+    font-size: 5rem;
+    color: #B64B38;
+}
+
+.main-container {
+    display: flex;
+    gap: 10rem;
+    justify-content: center;
+}
+
+.cel-fah, .fah-cel {
+    background-color: #eeeeee;
+    margin: 3rem;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0.5rem 0.5rem 2rem;
+}
+
+.main-heading {
+    padding: 0.3rem 3rem;
+    background-color: #B64B38;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+    color: #fff;
+}
+
+.main-section {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    gap: 1rem;
+}
+
+input {
+    width: 60%;
+    height: 3rem;
+}
+
+.btn {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.answer p {
+    font-size: 1.5rem;
+    padding-top: 1rem;
+    margin-bottom: 0;
+}
+
